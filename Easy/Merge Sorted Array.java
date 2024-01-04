@@ -17,7 +17,7 @@ Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
 The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
 */
 
-SOLUTION:
+//SOLUTION:
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int [] temp = new int [m+n];
