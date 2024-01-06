@@ -24,7 +24,8 @@ class Solution {
         	if(intervals[m][1]>=intervals[e][0]) {
         		if(intervals[m][1]>=intervals[e][1]){
 					e++;
-				}else {
+				}
+			else {
 	        		e++;
 	        		m=e-1;
 				}
