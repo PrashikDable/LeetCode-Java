@@ -47,11 +47,12 @@ EXPLANATION:
 *mid: Index used for iterating through the array.
 *high: Index to keep track of the position where the next 2 should be placed.
 
-*The algorithm uses three pointers (low, mid, and high) to partition the array into three sections: 0s on the left, 1s in the middle, and 2s on the right.
-*If the current element at mid is 0, it is swapped with the element at low, and both mid and low are incremented. This ensures that 0s are moved to the left.
-*If the current element at mid is 1, no swap is needed, and mid is simply incremented.
-*If the current element at mid is 2, it is swapped with the element at high, and high is decremented. This ensures that 2s are moved to the right.
-*The loop continues until mid surpasses high, ensuring that the entire array is sorted.
+-Dutch National Flag Algorithm:
+  *The algorithm uses three pointers (low, mid, and high) to partition the array into three sections: 0s on the left, 1s in the middle, and 2s on the right.
+  *If the current element at mid is 0, it is swapped with the element at low, and both mid and low are incremented. This ensures that 0s are moved to the left.
+  *If the current element at mid is 1, no swap is needed, and mid is simply incremented.
+  *If the current element at mid is 2, it is swapped with the element at high, and high is decremented. This ensures that 2s are moved to the right.
+  *The loop continues until mid surpasses high, ensuring that the entire array is sorted.
 
 *Swap method is a simple utility function for swapping elements in the array. It takes the array nums, along with the indices i and j, and swaps the elements at 
  those positions.
